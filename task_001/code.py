@@ -2,8 +2,8 @@ import cv2
 import os
 
 # movieディレクトリにモザイクを入れる動画を入れてください
-movie_path = 'movie/***.***(拡張子)'
-edited_movie_path = 'edited_movie'
+movie_path = 'movie.gitkeep/***.***(拡張子)'
+edited_movie_path = 'edited_movie.gitkeep'
 face_cascade = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_alt2.xml')
 # モザイク加工後のファイル名を指定してください
 output_file_name = '***.***(拡張子)'
