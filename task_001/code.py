@@ -48,7 +48,7 @@ frame_rate = int(cap.get(cv2.CAP_PROP_FPS))
 size = (width, height)
 
 fmt = cv2.VideoWriter_fourcc('m', 'p', '4', 'v')
-writer = cv2.VideoWriter(os.path.join(os.getcwd(), edited_movie_path, file_name), fmt, frame_rate, size)
+writer = cv2.VideoWriter(os.path.join(os.getcwd(), edited_movie_path, output_file_name), fmt, frame_rate, size)
 
 i = 1
 while True:
