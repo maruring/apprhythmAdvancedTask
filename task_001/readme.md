@@ -9,11 +9,10 @@ conda env create -n *****(作成する仮想環境の名前) -f package_info.yml
 '''  
 
 # Usage
-モザイク加工をしたい動画をmovieディレクトリに入れる
-モザイク加工する動画の拡張子はmp4のみとする
-モザイク加工する動画のファイル名は　input_movie とすること
-movieフォルダに入れる動画の数は1つだけとする
-実行する  
+モザイク加工をしたい動画をmovieディレクトリに入れる  
+モザイク加工する動画の拡張子はmp4のみとする  
+モザイク加工する動画のファイル名は　input_movie とすること  
+*movieフォルダに入れる動画の数は1つだけとする   
 '''  
 git clone https://github.com/maruring/apprhythmAdvancedTask.git  
 cd task_001  
