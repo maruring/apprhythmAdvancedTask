@@ -2,11 +2,11 @@ import cv2
 import os
 
 # movieディレクトリにモザイクを入れる動画を入れてください
-movie_path = 'movie/***.***(拡張子)'
+input_movie_name = 'movie/input_movie.MP4'
 edited_movie_path = 'edited_movie'
 face_cascade = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_alt2.xml')
 # モザイク加工後のファイル名を指定してください
-output_file_name = '***.***(拡張子)'
+output_file_name = 'output_movie.MP4'
 
 
 
@@ -40,7 +40,7 @@ def face_mosaic(img):
     return img
 
 
-cap = cv2.VideoCapture(movie_path)
+cap = cv2.VideoCapture(input_movie_name)
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 frame_count = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
