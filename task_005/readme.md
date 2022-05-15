@@ -22,6 +22,7 @@ shift + Enter でセルを実行していく
 '''  
 git clone https://github.com/maruring/apprhythmAdvancedTask.git  
 cd task_005   
+task_005.ipynb
 '''  
 
 # Author
