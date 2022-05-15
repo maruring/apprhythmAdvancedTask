@@ -18,6 +18,9 @@ notebookのインタプリタを変更すること**
 
 # Usage
 jupyter notebookを起動  
+写真のようにpycaertをインストールした仮想環境に変更
+![autoML](https://user-images.githubusercontent.com/58333988/168496586-517df3d0-7ab5-41c2-bd4b-9d04cc6e2b39.png)  
+
 shift + Enter でセルを実行していく
 '''  
 git clone https://github.com/maruring/apprhythmAdvancedTask.git  
