@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>apprhythmTask003</title>
+    <link rel="stylesheet" href="../static/index.css">
+</head>
+<body>
+    <header>
+        <h1>2022年2月先端課題</h1>
+        <p>画像をアップロードすると物体検出された(バウンディボックス描画された)が画像が返却されます</p>
+    </header>
+    <div class="main-container">
+        <div class="input-container">
+            <p>画像をアップロードしてください</p>
+            <div id="submit-container">
+                <form method='post' action="" enctype='multipart/form-data'>
+                    {% csrf_token %}
+                    {{ form }}
+                    <input type="submit" value="実行" id="submit">
+                </form>
+            </div>
+            <img src="media/before_image/picture.jpg" height="200px" alt="画像のプレビュー">
+        </div>
+        <div class="output-container">
+            <p>検出された物体が緑色の枠で囲われます</p>
+            <img src="media/after_image/picture.jpg" height="350px" alt="加工後の写真">
+
+        </div>
+    </div>
+    <script type="text/javascript" src="../static/index.js"></script>
+</body>
+</html>
