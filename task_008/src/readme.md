@@ -11,7 +11,7 @@ power shellで以下のコマンドを実行
 3. docker container run -p 8051:8051 --name apptask008 --mount type=bind,src="$PWD",dst=/home -it maruring/apptask:008
 4. cd home/src
 5. streamlit run app.py --server.port 8051
-6. アドレスバーに「localhost:8501」を打ち込む
+6. アドレスバーに「localhost:8051」を打ち込む
 
 ## 実行
 1. 拡張子が「.mp4」か「.avi」の200MB以下の動画をアップロード(動画がない場合は「example.mp4」を使用してください)  
