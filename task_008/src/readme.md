@@ -8,8 +8,8 @@ https://docs.docker.jp/docker-for-windows/install.html
 power shellで以下のコマンドを実行
 1. docker pull maruring/apptask:008
 2. task_008ディレクトリに移動
-3. docker container run -p 8051:8051 --name apptask008 -v /src:/home -it maruring/apptask:008
-4. cd home
+3. docker container run -p 8051:8051 --name apptask008 --mount type=bind,src="$PWD",dst=/home -it maruring/apptask:008
+4. cd home/src
 5. streamlit run app.py --server.port 8051
 6. アドレスバーに「localhost:8501」を打ち込む
 
