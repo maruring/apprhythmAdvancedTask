@@ -22,7 +22,7 @@ Teachable MachineではWebカメラからの撮影でデータを収集するこ
 「長押しして録画」を押下して、腕を垂直方向に上げた写真と水平方向に上げた写真をとります    
 顔をスプレーで塗りつぶしているので、黒くなっていますが、本来は黒くなりません  
 ![3](https://user-images.githubusercontent.com/58333988/176896910-0a5e6c6e-4f55-4fd7-9d31-31fe2db51bca.PNG)  
-最後のそれぞれのclass名を変更します  
+最後にそれぞれのclass名を変更します  
 ![4](https://user-images.githubusercontent.com/58333988/176898140-0b595f13-fdb6-4586-b600-1f8a49a31271.PNG)  
 
 
