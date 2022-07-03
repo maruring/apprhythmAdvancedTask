@@ -4,10 +4,16 @@ Docker desktopがインストールされており、動作するのが確認で
 インストールしていない場合は以下のリンクからダウンロード  
 https://www.docker.com/products/docker-desktop/  
 
-## 動作方法
-任意のディレクトリに移動  
-git clone   
-docker build --no-cache -t apptask010 .
+## 環境構築
+1. 任意のディレクトリに移動  
+2. git clone   
+3. docker build --no-cache -t apptask010 .
+4. docker container run -p 8051:8051 --name apptask010  
+5. cd home/src  
+6. streamlit run app.py --server.port 8051  
+7. アドレスバーに「localhost:8051」を打ち込む  
+
+## 動作方法  
 
 
 ## モデル
