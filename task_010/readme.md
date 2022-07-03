@@ -19,8 +19,9 @@ https://www.docker.com/products/docker-desktop/
 
 ## モデル
 1. 転移学習
-「resnext50_32x4d」,「vgg16」
+「resnext50_32x4d」,「vgg16」  
 最終層を2classに変更  
 最終層と最終層の1つまえの重みを変更  
 
 2. 自作モデル
+![original pth](https://user-images.githubusercontent.com/58333988/177040515-bb89db95-18d3-4021-aa9c-a8af897c01eb.png)
