@@ -9,10 +9,9 @@ https://www.docker.com/products/docker-desktop/
 2. git clone https://github.com/maruring/apprhythmAdvancedTask.git  
 3. cd ~/apptask_010
 4. docker build --no-cache -t apptask010 .
-5. docker container run -p 8051:8051 --name apptask010  
-6. cd home/src  
-7. streamlit run app.py --server.port 8051  
-8. アドレスバーに「localhost:8051」を打ち込む  
+5. docker container run -p 8051:8051 --name apptask010 -it apptask010 /bin/bash
+6. streamlit run app.py --server.port 8051
+7. アドレスバーに「localhost:8051」を打ち込む  
 
 ## 動作方法  
 
