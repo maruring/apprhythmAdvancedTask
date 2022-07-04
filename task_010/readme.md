@@ -8,12 +8,19 @@ https://www.docker.com/products/docker-desktop/
 1. 任意のディレクトリに移動  
 2. git clone https://github.com/maruring/apprhythmAdvancedTask.git  
 3. cd ~/apptask_010
-4. docker build --no-cache -t apptask010 .    (40分くらいかかります)  
+4. docker build --no-cache -t apptask010 . (40分くらいかかります)  
 5. docker container run -p 8051:8051 --name apptask010 -it apptask010 /bin/bash
 6. streamlit run app.py --server.port 8051
 7. アドレスバーに「localhost:8051」を打ち込む  
 
 ## 動作方法  
+1. 判定用のモデルを選択  
+2. 写真をアップロード  
+![1](https://user-images.githubusercontent.com/58333988/177221770-306a1698-caa6-42a7-8c5e-a83c4e3f0ca8.PNG)  
+3. 「判定」を押下  
+![2](https://user-images.githubusercontent.com/58333988/177221803-409657a6-3663-445f-a104-8fdf402b58a4.PNG)  
+4. 判定用に使用した写真と判定結果が表示されます  
+![3](https://user-images.githubusercontent.com/58333988/177221822-d11a67d9-a168-4fa3-895e-4de830a041d1.PNG)  
 
 
 ## モデル
