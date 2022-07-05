@@ -8,7 +8,7 @@ https://www.docker.com/products/docker-desktop/
 1. 任意のディレクトリに移動  
 2. git clone https://github.com/maruring/apprhythmAdvancedTask.git
 3. [リンク](https://drive.google.com/file/d/1O7TM-bA0x_2dQ9OxGzgVO271jg2bWQ40/view?usp=sharing)からvgg16モデルの学習済み重みをダウンロード
-4. ~appatask_010/modelsディレクトリに3でダウンロードしたvgg16モデルをコピー
+4. ~appatask_010/modelsディレクトリに手順3でダウンロードしたvgg16モデルをコピー
 5. cd ~/apptask_010
 6. docker build --no-cache -t apptask010 . (40分くらいかかります)  
 7. docker container run -p 8051:8051 --name apptask010 -it apptask010 /bin/bash
