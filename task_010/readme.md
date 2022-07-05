@@ -7,6 +7,7 @@ https://www.docker.com/products/docker-desktop/
 ## 環境構築
 1. 任意のディレクトリに移動  
 <<<<<<< HEAD
+<<<<<<< HEAD
 2. git clone https://github.com/maruring/apprhythmAdvancedTask.git  
 3. cd ~/apptask_010
 4. docker build --no-cache -t apptask010 . (40分くらいかかります)  
@@ -14,6 +15,8 @@ https://www.docker.com/products/docker-desktop/
 6. streamlit run app.py --server.port 8051
 7. アドレスバーに「localhost:8051」を打ち込む  
 =======
+=======
+>>>>>>> 0558ee826497d9fce2cbf2e0292dfd4d03ac0e07
 2. git clone https://github.com/maruring/apprhythmAdvancedTask.git
 3. [リンク](https://drive.google.com/file/d/1O7TM-bA0x_2dQ9OxGzgVO271jg2bWQ40/view?usp=sharing)からvgg16モデルの学習済み重みをダウンロード
 4. ~appatask_010/modelsディレクトリに3でダウンロードしたvgg16モデルをコピー
@@ -22,6 +25,9 @@ https://www.docker.com/products/docker-desktop/
 7. docker container run -p 8051:8051 --name apptask010 -it apptask010 /bin/bash
 8. streamlit run app.py --server.port 8051
 9. アドレスバーに「localhost:8051」を打ち込む  
+<<<<<<< HEAD
+>>>>>>> 0558ee826497d9fce2cbf2e0292dfd4d03ac0e07
+=======
 >>>>>>> 0558ee826497d9fce2cbf2e0292dfd4d03ac0e07
 
 ## 動作方法  
