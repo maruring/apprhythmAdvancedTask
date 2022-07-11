@@ -3,7 +3,7 @@
 - Docker desktopがインストールされており、動作するのが確認できていること  
 インストールしていない場合は以下のリンクからダウンロード  
 https://www.docker.com/products/docker-desktop/  
-- windows10 home以上  
+
 
 ## 環境構築  
 1. 任意のディレクトリに移動  
