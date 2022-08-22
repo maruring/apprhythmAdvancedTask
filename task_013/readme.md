@@ -5,7 +5,7 @@ Docker desktopがインストールされており、動作するのが確認で
 インストールしていない場合は以下のリンクからダウンロード  
 https://www.docker.com/products/docker-desktop/  
 
-##環境構築
+## 環境構築
 1. 任意のディレクトリに移動
 2. git clone https://github.com/maruring/apprhythmAdvancedTask.git
 3. cd ~/apptask_013
