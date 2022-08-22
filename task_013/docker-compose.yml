@@ -1,0 +1,10 @@
+version: '3'
+services:
+  task013:
+    build:
+      context: .
+      shm_size: '2gb'
+    tty: true
+    ports: 
+      - "8888:8888"
+    command: jupyter-lab --ip 0.0.0.0 --allow-root -b localhost --NotebookApp.token=''
