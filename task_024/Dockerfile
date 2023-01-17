@@ -11,4 +11,4 @@ COPY ./model/ /root/src/model/
 WORKDIR /root/src
 
 RUN python -m pip install --upgrade pip
-RUN python -m pip install jupyterlab ipywidgets numpy torch torchvision torchaudio pillow streamlit
+RUN python -m pip install numpy torch torchvision torchaudio pillow streamlit

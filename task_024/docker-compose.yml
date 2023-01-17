@@ -1,10 +1,13 @@
 version: '3'
 services:
-  app:
+  streamlit:
     build:
       context: .
       shm_size: '3gb'
     tty: true
+    volumes:
+      - ./codes/:/root/src/codes/
+      - ./model/:/root/src/model/
     ports: 
-      - "8888:8888"
-    command: jupyter-lab --ip 0.0.0.0 --allow-root -b localhost --NotebookApp.token=''
+      - "8501:8501"
+    command: streamlit run ./codes/app.py

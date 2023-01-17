@@ -6,8 +6,8 @@ Docker desktopがインストールされており、動作するのが確認で
 https://www.docker.com/products/docker-desktop/  
 
 ## 環境構築
-1. 任意のディレクトリに移動
-2. コマンドプロンプトを起動
+1. コマンドプロンプトを起動
+2. 任意のディレクトリに移動
 3. git clone https://github.com/maruring/apprhythmAdvancedTask.git
 4. cd ~/apptask_022
 5. docker-compose up -d --build

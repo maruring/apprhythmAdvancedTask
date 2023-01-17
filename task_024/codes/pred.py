@@ -1,11 +1,11 @@
 import torch
 import torch.nn as nn
 from torchvision import transforms, models
+from original_model import Net
 
 def predict(model_path, img):
-    model = models.vgg16()
-    model.fc = nn.Linear(4096, 3)
-
+    model = None
+    model = Net()
     model.load_state_dict(torch.load(model_path))
     model.eval()
 
@@ -25,8 +25,8 @@ def predict(model_path, img):
     _, pred = torch.max(output, 1)
     ans = pred[0].item()
     if ans == 0:
-        return "Dog"
+        return "ウサギ"
     elif ans == 1:
-        return "Cat"
+        return "犬"
     else:
-        return "Rabbit"
+        return "猫"
