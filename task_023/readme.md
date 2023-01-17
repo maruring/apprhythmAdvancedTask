@@ -9,9 +9,9 @@ modelは改善していきます。
 インストールしていない場合は以下のリンクからダウンロード  
 https://www.docker.com/products/docker-desktop/  
 2. TRAINディレクトリの構造が以下の構造になっており、各ディレクトリに画像が入っていること(Lineworks Driveからダウンロードする)
-./TRAIN
-├Cat
-├Dog
+./TRAIN  
+├Cat  
+├Dog  
 └Rabbit
 3. TESTディレクトリ内にテスト画像が入っていること(Lineworks Driveからダウンロードする)
 
