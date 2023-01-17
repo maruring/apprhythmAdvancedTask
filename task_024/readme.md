@@ -11,6 +11,13 @@ https://www.docker.com/products/docker-desktop/
 3. git clone https://github.com/maruring/apprhythmAdvancedTask.git
 4. cd ~/apptask_024
 5. docker-compose up -d --build(15分ぐらいかかります)
-6. アドレスバーに「localhost:8888」を打ち込む
+6. 任意のブラウザを開く
+7. アドレスバーに「localhost:8501」を打ち込む
 
 ## 動作方法
+1. 「Browse files」ボタンを押下する
+2. 犬か猫かウサギのファイルを選択する
+![base1](https://user-images.githubusercontent.com/58333988/212811456-f5a713db-9c8a-498f-9f1d-dd956afb4459.PNG)
+
+3. 「判定」ボタンを押下する
+![base2](https://user-images.githubusercontent.com/58333988/212811473-3d774cf3-9a2f-4a2a-a684-119e9f5cafa7.PNG)
