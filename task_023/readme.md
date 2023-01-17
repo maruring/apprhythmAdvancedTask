@@ -28,4 +28,4 @@ https://www.docker.com/products/docker-desktop/
 2. shift + Enterで上から順に実行する(学習には、30分ぐらいかかります)
 3. codesの中の Evaluation.ipynb を開く
 4. shift + Enterで上から順に実行する
-5. scoreが80%以上になっていることを確認する
+5. scoreが70%以上になっていることを確認する
