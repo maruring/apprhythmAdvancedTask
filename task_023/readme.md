@@ -21,7 +21,8 @@ https://www.docker.com/products/docker-desktop/
 3. git clone https://github.com/maruring/apprhythmAdvancedTask.git
 4. cd ~/apptask_023
 5. docker-compose up -d --build(15分ぐらいかかります)
-6. アドレスバーに「localhost:8888」を打ち込む
+6. 任意のブラウザを開く
+7. アドレスバーに「localhost:8888」を打ち込む
 
 ## 動作方法
 1. codesの中の PreProcess.ipynb を開く
