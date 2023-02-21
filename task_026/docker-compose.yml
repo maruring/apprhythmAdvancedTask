@@ -1,0 +1,13 @@
+version: '3'
+services:
+  AutoMLs:
+    build:
+      context: .
+      shm_size: '4gb'
+    tty: true
+    ports: 
+      - "8888:8888"
+    volumes:
+      - ./codes:/root/src/codes/
+      - ./files:/root/src/files/
+    command: jupyter-lab --ip 0.0.0.0 --allow-root -b localhost --NotebookApp.token=''
