@@ -17,3 +17,7 @@ Docker desktopがインストールされており、動作するのが確認で
 7. アドレスバーに「localhost:8501」を打ち込む
 
 ## 動作方法
+1. 実行ボタンを押下  
+![step1](https://user-images.githubusercontent.com/58333988/220319659-cde60bdb-6733-4e0f-be43-f7455b822679.PNG)
+2. 以下のような画面になれば動作終了  
+![step2](https://user-images.githubusercontent.com/58333988/220319748-11874003-e80f-4a7d-869f-b2d36043d5ab.PNG)
