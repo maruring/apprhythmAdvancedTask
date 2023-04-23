@@ -1,0 +1,22 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: mysql-conteiner
+    volumes:
+      - ./mysql/init:/docker-entrypoint-initdb.d
+    ports:
+      - 13306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=pass
+      - MYSQL_DATABASE=db
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=passdb
+  php:
+    build: ./php
+    volumes:
+      - ./html:/var/www/html
+    ports:
+      - 8080:80
+    depends_on:
+      - mysql
